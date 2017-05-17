@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  resources :articles
   get 'articles/index'
   post 'articles/news_title'
   root 'articles#index'
